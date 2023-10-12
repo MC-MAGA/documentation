@@ -1,4 +1,4 @@
-import {ButtonOutline, themeGet} from '@primer/components'
+import {ButtonOutline, themeGet} from '@primer/react'
 import styled from 'styled-components'
 
 const DarkButton = styled(ButtonOutline)`

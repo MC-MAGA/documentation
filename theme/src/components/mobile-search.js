@@ -1,4 +1,4 @@
-import {Absolute, Fixed, Flex} from '@primer/components'
+import {Absolute, Fixed, Flex} from '@primer/react'
 import {XIcon, SearchIcon} from '@primer/octicons-react'
 import {AnimatePresence, motion} from 'framer-motion'
 import React from 'react'

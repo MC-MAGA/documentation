@@ -1,4 +1,4 @@
-import {TextInput, themeGet} from '@primer/components'
+import {TextInput, themeGet} from '@primer/react'
 import styled from 'styled-components'
 
 const DarkTextInput = styled(TextInput)`

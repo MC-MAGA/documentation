@@ -1,4 +1,4 @@
-import {BorderBox, Flex, Link} from '@primer/components'
+import {BorderBox, Flex, Link} from '@primer/react'
 import {XIcon, ThreeBarsIcon} from '@primer/octicons-react'
 import {Link as GatsbyLink} from 'gatsby'
 import React from 'react'

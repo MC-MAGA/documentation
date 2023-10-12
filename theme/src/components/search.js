@@ -1,4 +1,4 @@
-import {BorderBox, Position} from '@primer/components'
+import {BorderBox, Position} from '@primer/react'
 import React from 'react'
 import useSiteMetadata from '../use-site-metadata'
 import DarkTextInput from './dark-text-input'

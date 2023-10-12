@@ -1,4 +1,4 @@
-import {BorderBox, Box, Flex, Grid, Heading, Position, StyledOcticon, Text} from '@primer/components'
+import {BorderBox, Box, Flex, Grid, Heading, Position, StyledOcticon, Text} from '@primer/react'
 import {ChevronDownIcon, ChevronRightIcon} from '@primer/octicons-react'
 import React from 'react'
 import {MDXProvider} from '@mdx-js/react'

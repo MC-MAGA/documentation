@@ -1,4 +1,4 @@
-import {Flex, Text} from '@primer/components'
+import {Flex, Text} from '@primer/react'
 import React from 'react'
 import useSiteMetadata from '../use-site-metadata'
 import NavHierarchy from '../nav-hierarchy'

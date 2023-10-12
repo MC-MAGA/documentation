@@ -1,4 +1,4 @@
-import {Link, StyledOcticon} from '@primer/components'
+import {Link, StyledOcticon} from '@primer/react'
 import {CodeIcon} from '@primer/octicons-react'
 import React from 'react'
 

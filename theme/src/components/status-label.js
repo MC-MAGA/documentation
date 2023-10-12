@@ -1,4 +1,4 @@
-import {BorderBox, StyledOcticon, Flex, Text} from '@primer/components'
+import {BorderBox, StyledOcticon, Flex, Text} from '@primer/react'
 import {DotFillIcon} from '@primer/octicons-react'
 import React from 'react'
 

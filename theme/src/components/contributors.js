@@ -1,4 +1,4 @@
-import {Avatar, Flex, Link, Text, Tooltip} from '@primer/components'
+import {Avatar, Flex, Link, Text, Tooltip} from '@primer/react'
 import {format} from 'date-fns'
 import uniqBy from 'lodash.uniqby'
 import pluralize from 'pluralize'

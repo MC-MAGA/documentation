@@ -1,5 +1,5 @@
 import React from 'react'
-import {BorderBox, Text} from '@primer/components'
+import {BorderBox, Text} from '@primer/react'
 
 function Prompt({children}) {
   return (

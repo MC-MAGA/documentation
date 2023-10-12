@@ -1,4 +1,4 @@
-import {Absolute, BorderBox, Relative, Text} from '@primer/components'
+import {Absolute, BorderBox, Relative, Text} from '@primer/react'
 import htmlReactParser from 'html-react-parser'
 import githubTheme from 'prism-react-renderer/themes/github'
 import React, {useState} from 'react'
