@@ -1,4 +1,4 @@
-import navItems from './nav.yml'
+import navItems from '../nav.yml'
 import {withPrefix} from 'gatsby'
 
 export default {

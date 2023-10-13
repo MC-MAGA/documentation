@@ -1,12 +1,12 @@
 import {Box, Flex} from '@primer/components'
 import React from 'react'
-import Container from './container'
-import PageFooter from './page-footer'
-import Head from './head'
-import Header from './header'
-import Hero from './hero'
-import Sidebar from './sidebar'
-import * as Slugger from '../use-slugger'
+import Container from '../components/container'
+import PageFooter from '../components/page-footer'
+import Head from '../components/head'
+import Header from '../components/header'
+import Hero from '../components/hero'
+import Sidebar from '../components/sidebar'
+import * as Slugger from '../hooks/use-slugger'
 
 function HeroLayout({children, pageContext, location}) {
   const {additionalContributors = []} = pageContext.frontmatter

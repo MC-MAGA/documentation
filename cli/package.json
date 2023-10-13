@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "@npm/documentation-cli",
   "private": true,
   "repository": {
     "url": "https://github.com/npm/documentation.git",

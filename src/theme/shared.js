@@ -1,8 +1,6 @@
 import React from 'react'
-import { Link } from '@primer/components'
-import { Note, Screenshot } from 'theme'
 
-const shared = {
+export default ({ Link, Screenshot, Note }) => ({
   /* User login */
   'user-login': {
     text: (<>On the npm "<Link href="https://www.npmjs.com/login">Sign In</Link>" page, enter your account details and click <strong>Sign In</strong>.</>),
@@ -211,6 +209,4 @@ const shared = {
   'enterprise-migration-requirements': {
     text: (<Note><><strong>Note:</strong> Using <code><a href="https://www.npmjs.com/package/pneumatic-tubes">pneumatic-tubes</a></code> for migration requires <ul><li>Node 8+</li><li>npm 5+ (to install or upgrade, run <code>npm install npm@latest -g</code>)</li></ul></></Note>),
   },
-}
-
-export default shared
+})

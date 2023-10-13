@@ -5,7 +5,6 @@ import React, {useState} from 'react'
 import reactElementToJsxString from 'react-element-to-jsx-string'
 import {LiveEditor, LiveError, LivePreview, LiveProvider} from 'react-live'
 import {ThemeContext} from 'styled-components'
-import scope from '../live-code-scope'
 import ClipboardCopy from './clipboard-copy'
 import LivePreviewWrapper from './live-preview-wrapper'
 
@@ -13,6 +12,10 @@ const languageTransformers = {
   html: html => htmlToJsx(html),
   jsx: jsx => wrapWithFragment(jsx),
 }
+
+// USed to define the scope of live code examples.
+// See https://primer.style/doctocat/usage/live-code for more details
+const scope = {}
 
 function htmlToJsx(html) {
   try {
